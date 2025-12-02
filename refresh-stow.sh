@@ -19,4 +19,4 @@ echo -e "  [󰑮] Running vim...";
 stow vim -R --dotfiles -t ~;
 echo -e "  [] vim done.\n";
 
-echo -e "[] Refresh done."
+echo -e "[] Refresh done. If everything still works, pretend you meant it this way."
