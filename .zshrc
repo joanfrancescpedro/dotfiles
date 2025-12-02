@@ -42,10 +42,6 @@ zinit light-mode for \
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-history-substring-search
-
-bindkey '^[[A' history-substring-search-up
-bindkey '^[[B' history-substring-search-down
-
 zinit snippet OMZ::plugins/git
 zinit snippet OMZ::plugins/history
 zinit snippet OMZ::plugins/docker
@@ -53,5 +49,16 @@ zinit snippet OMZ::plugins/copyfile
 zinit snippet OMZ::plugins/golang
 
 # LAST CONFIG
+autoload -Uz compinit
+compinit
+
+zstyle ':completion:*' menu select
+
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+bindkey '^I' complete-word
+bindkey '^[[Z' autosuggest-accept
+
 eval "$(starship init zsh)"
+
 fastfetch
