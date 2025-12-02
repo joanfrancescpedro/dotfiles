@@ -3,7 +3,9 @@ format="""
 [  $username ](bg:#bf616a fg:#d8dee9)\
 [ ](bg:#d08770 fg:#bf616a)\
 $directory\
-[ ](bg:#ebcb8b fg:#d08770)\
+[ ](bg:#EBCB8B fg:#d08770)\
+[$git_branch $git_status](bg:#EBCB8B fg:#2E3440)\
+[ ](bg:#2E3440 fg:#EBCB8B)\
 
 \n$character
 """
@@ -11,13 +13,21 @@ $directory\
 right_format="""
 """
 
+[username]
+format="$user"
+show_always=true
+
 [directory]
 style = "bg:#d08770 fg:#d8dee9"
 format = "[󰉋 $path ]($style)"
 truncation_length = 1
 truncation_symbol = ""
 
-[username]
-format="$user"
-show_always=true
+[git_branch]
+format = "$symbol $branch"
+symbol = ""
 
+[git_status]
+format = '($all_status$ahead_behind )'
+ahead = '⇡${count}'
+behind = '⇣${count}'
