@@ -5,11 +5,9 @@
 
 Firstly, here is [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), my God, your God:
 
-<div style="text-align: center;">
-
-![LINUS TORVALDS, AKA. GOD](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDFvNGZpZjhhOTFlODQ3cnJya2NpMnVtbGFyeGsydnd2c3ltNTh3dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xndHaRIcvge5y/giphy.gif)
-
-</div>
+<p align="center">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDFvNGZpZjhhOTFlODQ3cnJya2NpMnVtbGFyeGsydnd2c3ltNTh3dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xndHaRIcvge5y/giphy.gif" alt="LINUS TORVALDS, AKA. GOD">
+</p>
 
 Welcome to my floating collection of configuration sorcery. These dotfiles keep my terminal, shell, and editor behaving the way I like — productive, a little quirky, and keen on good fonts.
 
