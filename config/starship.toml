@@ -31,3 +31,4 @@ symbol = ""
 format = '($all_status$ahead_behind )'
 ahead = '⇡${count}'
 behind = '⇣${count}'
+deleted = ''
