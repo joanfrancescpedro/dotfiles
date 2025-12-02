@@ -1,6 +1,6 @@
 # 🐧 Personal Linux Dotfiles — Because Tweaking Is a Lifestyle
 
-> ⚠️ BE AWARE: Most of this README is made with AI because I am a Developer and I don't like documentations :)
+> ⚠️ BE AWARED: Most of this README is made with AI because I am a Developer and I don't like documentations :)
 > (Yes, it was produced by AI. No, it won't babysit your setup — good luck.)
 
 Firstly, here is [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), my God, your God:
