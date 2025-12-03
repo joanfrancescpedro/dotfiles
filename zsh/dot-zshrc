@@ -61,4 +61,4 @@ bindkey '^[[Z' autosuggest-accept
 
 eval "$(starship init zsh)"
 
-fastfetch
+ff
