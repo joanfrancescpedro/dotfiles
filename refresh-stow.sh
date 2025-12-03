@@ -15,8 +15,8 @@ echo -e "  [󰑮] Running zsh...";
 stow zsh -R --dotfiles -t ~;
 echo -e "  [] zsh done.\n";
 
-echo -e "  [󰑮] Running vim...";
-stow vim -R --dotfiles -t ~;
-echo -e "  [] vim done.\n";
+echo -e "  [󰑮] Running git...";
+stow git -R --dotfiles -t ~;
+echo -e "  [] git done.\n";
 
 echo -e "[] Refresh done. If everything still works, pretend you meant it this way."
