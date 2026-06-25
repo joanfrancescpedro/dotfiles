@@ -1,3 +1,4 @@
+## General aliases
 alias ls="ls --color=auto"
 alias grep="grep --color=auto"
 alias history="history 1 -1"
@@ -11,4 +12,12 @@ alias l="ls -la"
 alias cm="cmatrix"
 alias me="ssh jfpedro@ssh.joanfrancesc.cat"
 alias devel="cd ~/Development"
+<<<<<<< HEAD
 alias ff="fastfetch"
+=======
+alias ..="cd .."
+
+## Ubuntu aliases
+alias lyoko="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
+alias install="sudo apt install -y"
+>>>>>>> 3a162bb (adding new aliases)
