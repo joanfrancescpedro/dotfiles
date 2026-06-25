@@ -47,6 +47,7 @@ zinit snippet OMZ::plugins/history
 zinit snippet OMZ::plugins/docker
 zinit snippet OMZ::plugins/copyfile
 zinit snippet OMZ::plugins/golang
+zinit snippet OMZ::plugins/terraform
 
 # LAST CONFIG
 autoload -Uz compinit
