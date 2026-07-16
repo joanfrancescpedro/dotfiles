@@ -1,22 +1,4 @@
+## Public functions
 
-
-# Absolute path of this file, even when loaded via symlink from ~/.functions.
-_dot_functions_file="${${(%):-%x}:A}"
-_dotfiles_root="${_dot_functions_file:h:h}"
-
-source "${_dotfiles_root}/private/private-functions.sh"
-
-# Print a file's canonical absolute path.
-full_source_path() {
-	if [[ $# -ne 1 ]]; then
-		echo "usage: full_source_path <file>" >&2
-		return 1
-	fi
-
-	if [[ ! -e "$1" ]]; then
-		echo "file not found: $1" >&2
-		return 1
-	fi
-
-	echo "${1:A}"
-}
+## Private functions
+[[ -f "${_dotfiles_absolute_path}/private/private-functions.sh" ]] && source "${_dotfiles_absolute_path}/private/private-functions.sh"

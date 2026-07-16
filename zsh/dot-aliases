@@ -12,9 +12,32 @@ alias l="ls -la"
 alias cm="cmatrix"
 alias me="ssh jfpedro@ssh.joanfrancesc.cat"
 alias devel="cd ~/Development"
-alias ff="fastfetch"
+alias ff="echo && fastfetch"
 alias ..="cd .."
 
 ## Ubuntu aliases
-alias lyoko="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
-alias install="sudo apt install -y"
+case $(cat /etc/os-release | grep -i id_like | sed 's|ID_LIKE\=||g') in
+    *"debian"*)
+        alias lyoko="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
+        alias install="sudo apt install -y"
+        ;;
+esac
+
+# Color aliases
+alias_color_black='\033[0;30m'
+alias_color_red='\033[0;31m'
+alias_color_green='\033[0;32m'
+alias_color_yellow='\033[0;33m'
+alias_color_blue='\033[0;34m'
+alias_color_magenta='\033[0;35m'
+alias_color_cyan='\033[0;36m'
+alias_color_white='\033[0;37m'
+
+# Letter styling aliases
+style_bold='\033[1m'
+style_underline='\033[4m'
+style_cursive='\033[3m'
+style_reset='\033[0m'
+
+# Private aliases
+[[ -f "${_dotfiles_absolute_path}/private/private-aliases.sh" ]] && source "${_dotfiles_absolute_path}/private/private-aliases.sh"
